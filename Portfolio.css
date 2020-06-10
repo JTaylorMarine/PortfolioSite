@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -29,12 +29,6 @@ h2 a{
     text-decoration: none;
 }
 
-h3{
-
-    text-align: center;
-    color: black;
-}
-
 ul{
     display: flex;
     flex-direction: column;
@@ -54,6 +48,7 @@ ul{
     background: transparent;
     color: white;
     border: transparent;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
@@ -102,22 +97,6 @@ ul{
       color: white;
   }
 
-  #home{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-
-      background: url(https://www.wallpapermaiden.com/image/2019/03/09/samsung-galaxy-m20-stock-desert-blue-sky-31008.jpeg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-
-  #home h1{
-      margin-bottom: 180px;
-  }
-
   span{
       color:black;
   }
@@ -135,7 +114,7 @@ ul{
     section p{
         font-size: px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     section h1{
@@ -145,44 +124,11 @@ ul{
 
 section a{
     display: inline-block;
-    font-size: 60px;
-    padding: 15px;
+    font-size: 20px;
+    padding: 10px;
     background: #000;
-    margin-top: 30px;
+    margin-top: 15px;
     color:white;
-}
-
-section b{
-    display: inline-block;
-    padding: 5px;
-    background: #000;
-    margin-top: 30px;
-    margin-left: 300px;
-    color:white;
-}
-
-#SM button{
-    font-size: 50px;
-    padding: 0px;
-    background: #000;
-    color:white;
-    border-color: black;
-}
-
-#contact{
-    display: inline-block;
-    font-size: 60px;
-    text-align: center;
-    padding: 20px;
-    background: white;
-    margin-top: 30px;
-    color: black;
-
-}
-
-.page-footer{
-    position: relative;
-    margin-left: 1700px;
 }
 
 #top{

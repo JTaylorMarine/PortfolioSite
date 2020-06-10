@@ -8,40 +8,57 @@
         <h2><a href="#home">LOGO</a></h2>
         <ul id='nav'>
             <li><a class="active" href="#home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="portfolio">Portfolio</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a id="close">
                 <button onclick="getElementById('nav').style.width='0px'">Close</button></a></li>
-                    
         </ul>
+       
+        <!--        <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction(){
+                
+            }
+        </script>-->
 
         <div class="toggle">
-            <button onclick="document.getElementById('nav').style.width= '700px' "><Menu</button>
+            <button onclick="document.getElementById('nav').style.width= '700px' "><Menu></button>
         </div>
     </header>
 
     <section id="home">
-        <h1><span>Joshua </span>Taylor <br><span> Junior</span> Developer</h1>
+        <h1><span>Joshua </span>Taylor <br><span> Trainee</span> Developer</h1>
     </section>
 
     <section id="about">
         <div>
-            <h1>About</h1>
-            <p>..............</p>
-            
+            <h1>About Me</h1>
+            <h3><strong>I'm a novice web developer studying to establish a career in the IT industry</strong></h3>
+
+                <p>I have a Bsc and an MSc in a maths and physics subject relating to micro to macro-scale oceanographic systems.<br>
+                During that time I gained valuable experience solving problems and writing code. For instance, a notable project was tsunami waves hitting underwater banks <br>
+                leading to the analyse of the mixing processes occurring during the event. The assorted projects I was involved in were written in either FORTRAN, MatLab or Python.<br>
+                <br>
+                Currently, I am training in front & back-end development to improve my skills with HTML, CSS and JavaScript through various courses and projects.<br>
+                Across the projects, I have exposed myself to an assortment of java frameworks, in particular, Node.js and Express.js.<br>
+                </p>
+
         </div>
     </section>
 
-    <section id="Portfolio">
+    <section id="portfolio">
         <div>
         <h1>Portfolio</h1>
-        <p>My portfolio consists of two elements, firstly, <br>
-           models written during university which mostly consisting <br>
-           of wave & tidal dynamics and secondly, projects written <br>
-           in JavaScript, Node.js and Koa.js to learn knew librarys and <br>
-           also to practise the fundamentals of web development </p>
-        <a href="Portfolio.html">See More</a>
+
+        <p>My portfolio consists of two elements, firstly, models written during my education which consists of coastal and <br> open ocean wave & tidal dynamics 
+           along with meteorological models of pressure systems. <br>
+           Secondly, projects written in JavaScript to refine my fundamental knowledge of web development <br> 
+           and to help begin my pursuit into the IT industry.
+        </p>
+          
+          <b id="SM">
+               <button onclick="location.href='Portfolio.html'" type="button">See More</button></b>
         </div>
     </section>
 
@@ -50,11 +67,15 @@
         <h1>Contact</h1>
         <p><a href="mailto:">Joshua.taylor1994@outlook.com</a>
            <br>
-           Phone Number: 07505353507           
+           <img src="PhoneIcon.png" width="45">
+           07505353507
         </p>
         </div>
     </section>
-
+    
+<footer class="page-footer">
+<small>Made by Joshua Taylor</small>
+</footer>
 
 <a href="#top">Top of page</a>
 
